@@ -14,3 +14,9 @@ after_success:
   - docker build -t thealpha06/multi-server ./server
   - docker build -t thealpha06/multi-worker ./worker
   - docker build -t thealpha06/multi-nginx ./nginx
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin "$DOCKER_PASSWORD"
+  - docker push thealpha06/multi-client
+  - docker push thealpha06/multi-server
+  - docker push thealpha06/multi-worker
+  - docker push thealpha06/multi-nginx
+  
