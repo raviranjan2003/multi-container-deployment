@@ -9,12 +9,12 @@ script:
   - docker run -e CI=true thealpha06/react-test npm test
 
 after_success: 
-  - docker build -t thealpha06/multi-client ./client
-  - docker build -t thealpha06/multi-server ./server
-  - docker build -t thealpha06/multi-worker ./worker
-  - docker build -t thealpha06/multi-nginx ./nginx
+  - docker build -t thealpha06/multi-client:latest ./client
+  - docker build -t thealpha06/multi-server:latest ./server
+  - docker build -t thealpha06/multi-worker:latest ./worker
+  - docker build -t thealpha06/multi-nginx:latest ./nginx
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin "$DOCKER_PASSWORD"
-  - docker push thealpha06/multi-client
-  - docker push thealpha06/multi-server
-  - docker push thealpha06/multi-worker
-  - docker push thealpha06/multi-nginx
+  - docker push thealpha06/multi-client:latest
+  - docker push thealpha06/multi-server:latest
+  - docker push thealpha06/multi-worker:latest
+  - docker push thealpha06/multi-nginx:latest
