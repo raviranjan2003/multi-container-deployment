@@ -1,4 +1,3 @@
-sudo: required
 language: generic
 services:
   - docker
@@ -19,4 +18,3 @@ after_success:
   - docker push thealpha06/multi-server
   - docker push thealpha06/multi-worker
   - docker push thealpha06/multi-nginx
-
