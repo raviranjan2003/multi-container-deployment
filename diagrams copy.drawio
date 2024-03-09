@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="050f94d8-648a-babf-a13b-3d570a33ee5b" name="01 - prod">
-        <mxGraphModel dx="953" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1386" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -79,11 +79,11 @@
         </mxGraphModel>
     </diagram>
     <diagram name="04 - single" id="c8b6908f-cebf-2e6d-4ac5-b0d2c812212a">
-        <mxGraphModel dx="1398" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1386" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="14" value="Elastic Beanstalk&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
+                <mxCell id="14" value="Elastic Beanstalk&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;fillColor=#60a917;strokeColor=#2D7600;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="880" y="320" width="320" height="177" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;fillColor=#ffffff;strokeColor=#666666;mainText=,;recursiveResize=0;fontSize=20;" parent="1" vertex="1">
@@ -98,13 +98,13 @@
                 <mxCell id="9" value="Nginx w/ React Prod Files" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
                     <mxGeometry x="1020" y="373" width="150" height="84" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="Single Container EB Deployment" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
+                <mxCell id="11" value="Single Container EB Deployment" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;fillColor=#1ba1e2;strokeColor=#006EAF;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="440" y="200" width="220" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="port 80" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
                     <mxGeometry x="910" y="400.5" width="110" height="29" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="" style="endArrow=classic;html=1;strokeWidth=3;fontSize=20;" parent="1" edge="1">
+                <mxCell id="15" value="" style="endArrow=classic;html=1;strokeWidth=3;fontSize=20;strokeColor=#000;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="730" y="414" as="sourcePoint"/>
                         <mxPoint x="910" y="414" as="targetPoint"/>
@@ -114,57 +114,57 @@
         </mxGraphModel>
     </diagram>
     <diagram id="84b3a964-ed60-8fea-47ef-77a688ab3015" name="03 - dev">
-        <mxGraphModel dx="1398" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1386" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;fillColor=#ffffff;strokeColor=#666666;mainText=,;recursiveResize=0;fontSize=20;" parent="1" vertex="1">
+                <mxCell id="2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;fillColor=#ffffff;strokeColor=#000;mainText=,;recursiveResize=0;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="340" y="305" width="330" height="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" parent="2" vertex="1">
+                <mxCell id="3" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;strokeColor=#000;" parent="2" vertex="1">
                     <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" parent="2" vertex="1">
+                <mxCell id="4" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;strokeColor=#000;" parent="2" vertex="1">
                     <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=20;" parent="1" source="9" edge="1">
+                <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=20;strokeColor=#000;" parent="1" source="9" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="670" y="415" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=20;" parent="1" source="9" target="16" edge="1">
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=20;strokeColor=#000;" parent="1" source="9" target="16" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=20;" parent="1" source="9" target="15" edge="1">
+                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=20;strokeColor=#000;" parent="1" source="9" target="15" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="Nginx&lt;br&gt;ROUTING!!!&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
+                <mxCell id="9" value="Nginx&lt;br&gt;ROUTING!!!&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;strokeColor=#000;" parent="1" vertex="1">
                     <mxGeometry x="740" y="373" width="150" height="84" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="React Server" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
+                <mxCell id="11" value="React Server" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;strokeColor=#000;" parent="1" vertex="1">
                     <mxGeometry x="1080" y="259" width="150" height="84" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="Express Server" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
+                <mxCell id="12" value="Express Server" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;strokeColor=#000;" parent="1" vertex="1">
                     <mxGeometry x="1080" y="373" width="150" height="84" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="Development" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
+                <mxCell id="13" value="Development" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;fillColor=#1ba1e2;strokeColor=#000;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="440" y="200" width="220" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="port 3000" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
+                <mxCell id="15" value="port 3000" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;strokeColor=#000;" parent="1" vertex="1">
                     <mxGeometry x="970" y="286.5" width="110" height="29" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="port 5000" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
+                <mxCell id="16" value="port 5000" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;strokeColor=#000;" parent="1" vertex="1">
                     <mxGeometry x="970" y="400.5" width="110" height="29" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram name="04 - prod" id="c87a0c72-4102-6b67-f8b3-058122f24390">
-        <mxGraphModel dx="1398" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1386" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="14" value="Elastic Beanstalk&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
+                <mxCell id="14" value="Elastic Beanstalk&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;fillColor=#60a917;strokeColor=#2D7600;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="740" y="220" width="510" height="258" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;fillColor=#ffffff;strokeColor=#666666;mainText=,;recursiveResize=0;fontSize=20;" parent="1" vertex="1">
@@ -176,7 +176,7 @@
                 <mxCell id="4" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" parent="2" vertex="1">
                     <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=20;" parent="1" source="8" edge="1">
+                <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=20;strokeColor=#000;" parent="1" source="8" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="670" y="415" as="targetPoint"/>
                     </mxGeometry>
@@ -196,7 +196,7 @@
                 <mxCell id="10" value="Express Server" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
                     <mxGeometry x="1080" y="373" width="150" height="84" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="Production" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
+                <mxCell id="11" value="Production" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;fillColor=#1ba1e2;strokeColor=#006EAF;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="440" y="200" width="220" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="port 3000" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
@@ -212,7 +212,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="6433d95b-d8cf-874d-9d72-f428af6550c9" name="06 - travis">
-        <mxGraphModel dx="1398" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1386" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
